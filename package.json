@@ -17,7 +17,7 @@
     "linux-release": "electron-packager . electron-tutorial-app --overwrite --asar=true --platform=linux --arch=x64 --icon=src/assets/icon.png --prune=true --out=release-builds",
     "mac-build": "electron-installer-dmg ./release-builds/helloworld-darwin-x64/helloworld.app builds/helloworld",
     "mac-complete-build": "electron-serve && mac-release && mac-build",
-    "build-electron":"ng build --prod electron-packager . --platform=win32 --icon=src/assets/favicon.ico"
+    "build-electron":"ng build --prod && electron-packager . --platform=win32 --icon=src/assets/favicon.ico"
   },
   "private": true,
   "dependencies": {
