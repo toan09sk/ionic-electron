@@ -30,3 +30,7 @@ npm-debug.log*
 /platforms
 /plugins
 /www
+/electron
+/android
+/ios
+/*-win32-x64
